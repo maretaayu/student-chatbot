@@ -1,0 +1,16 @@
+# Core dependencies
+streamlit
+requests
+python-dotenv
+
+# Document processing (optional)
+PyPDF2
+python-docx
+
+# Image processing (optional)
+Pillow
+pytesseract
+
+# AI/ML (optional)
+torch
+transformers

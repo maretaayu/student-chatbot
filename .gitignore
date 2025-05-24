@@ -1,0 +1,63 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# 📁 Virtual Environments
+venv/
+myenv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# 📓 Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# 🧠 PyTorch / TensorFlow / ML
+*.h5
+*.pt
+*.pth
+*.ckpt
+runs/
+logs/
+
+# 🗃️ Data & Models (opsional, kalau sensitif atau besar)
+data/
+datasets/
+models/
+checkpoints/
+
+# 🧪 Test output
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# ⚙️ VSCode
+.vscode/
+
+# 📦 Packages & deps
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# 🔒 Credentials (jangan sampai ke-push)
+*.env
+.env.*
+secrets.json
+credentials.json
+
+# 🧼 OS & misc
+.DS_Store
+Thumbs.db
